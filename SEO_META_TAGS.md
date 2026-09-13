@@ -1,0 +1,79 @@
+# SEO Meta Tags Reference — tourism-travel-001-002
+
+## Essential Meta Tags (add to index.html <head>)
+
+```html
+<!-- Primary Meta Tags -->
+<title>Tourism Travel 001 002 - Celebrate It Your Way</title>
+<meta name="title" content="Tourism Travel 001 002 - Celebrate It Your Way" />
+<meta
+  name="description"
+  content="Explore wedding packages, view real event galleries, and check availability online. Planning made effortless."
+/>
+<meta
+  name="keywords"
+  content="wedding planner, event packages, wedding gallery, availability, event booking"
+/>
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="canonical" href="https://www.tourism-travel-001-002.com" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.tourism-travel-001-002.com" />
+<meta property="og:title" content="Tourism Travel 001 002 - Celebrate It Your Way" />
+<meta property="og:description" content="Packages and galleries that make planning the fun part." />
+<meta property="og:image" content="https://www.tourism-travel-001-002.com/og-image.jpg" />
+
+<!-- Twitter Card -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://www.tourism-travel-001-002.com" />
+<meta property="twitter:title" content="Tourism Travel 001 002 - Celebrate It Your Way" />
+<meta
+  property="twitter:description"
+  content="Packages and galleries that make planning the fun part."
+/>
+<meta property="twitter:image" content="https://www.tourism-travel-001-002.com/twitter-image.jpg" />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tourism Travel 001 002",
+    "url": "https://www.tourism-travel-001-002.com",
+    "description": "Packages and galleries that make planning the fun part.",
+    "foundingDate": "2026",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Urdu"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/tourism-travel-001-002",
+      "https://www.instagram.com/tourism-travel-001-002",
+      "https://twitter.com/tourism-travel-001-002"
+    ]
+  }
+</script>
+```
+
+## Multilingual (hreflang) — Add if i18n enabled
+
+```html
+<link rel="alternate" hreflang="en" href="https://www.tourism-travel-001-002.com/" />
+<link rel="alternate" hreflang="ur" href="https://www.tourism-travel-001-002.com/ur/" />
+<link rel="alternate" hreflang="ar" href="https://www.tourism-travel-001-002.com/ar/" />
+<link rel="alternate" hreflang="x-default" href="https://www.tourism-travel-001-002.com/" />
+```
+
+## PWA Meta Tags — Add if PWA enabled
+
+```html
+<link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#0d9488" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Tourism Travel 001 002" />
+```
